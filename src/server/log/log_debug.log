@@ -1,0 +1,96 @@
+INFO - send:启动sendQueue
+INFO - send:启动waitQueue
+INFO - pop3:监听端口:110
+INFO - stmp:监听端口:25
+DEBUG - smtp回应：220 email server is ready
+INFO - smtp:建立一个连接(730/127.0.0.1/127.0.0.1)
+DEBUG - smtp读取：EHLO heng-PC
+DEBUG - smtp回应：250-hello heng-PC
+DEBUG - smtp回应：250-AUTH LOGIN PLAIN
+DEBUG - smtp回应：250-AUTH=LOGIN PLAIN
+DEBUG - smtp回应：250-PIPELINING
+DEBUG - smtp回应：250 8BITMIME
+DEBUG - smtp读取：AUTH LOGIN
+DEBUG - smtp回应：334 dXNlcg==
+DEBUG - smtp读取：dG9tQHN1bi5jb20=
+DEBUG - smtp回应：334 cGFzc3dvcmQ=
+DEBUG - smtp读取：MTIzNDU2
+DEBUG - smtp回应：235 OK,go ahead
+DEBUG - smtp读取：MAIL FROM: <tom@sun.com>
+DEBUG - smtp回应：250 Sender <tom@sun.com> OK
+DEBUG - smtp读取：RCPT TO: <heng@sun.com>
+DEBUG - smtp回应：250 OK
+DEBUG - smtp读取：DATA
+DEBUG - smtp回应：354 start mail input;end with<CRLF>.<CRLF>
+DEBUG - smtp读取：Date: Tue, 7 May 2013 14:33:13 +0800
+DEBUG - smtp读取：From: tom <tom@sun.com>
+DEBUG - smtp读取：To: heng <heng@sun.com>
+DEBUG - smtp读取：Reply-To: heng2 <heng2@sun.com>
+DEBUG - smtp读取：Subject: warning
+DEBUG - smtp读取：X-Priority: 3
+DEBUG - smtp读取：X-Has-Attach: no
+DEBUG - smtp读取：X-Mailer: Foxmail 7.0.1.91[cn]
+DEBUG - smtp读取：Mime-Version: 1.0
+DEBUG - smtp读取：Message-ID: <2013050714331336077011@sun.com>
+DEBUG - smtp读取：Content-Type: multipart/alternative;
+DEBUG - smtp读取：	boundary="----=_001_NextPart480837042525_=----"
+DEBUG - smtp读取：
+DEBUG - smtp读取：This is a multi-part message in MIME format.
+DEBUG - smtp读取：
+DEBUG - smtp读取：------=_001_NextPart480837042525_=----
+DEBUG - smtp读取：Content-Type: text/plain;
+DEBUG - smtp读取：	charset="gb2312"
+DEBUG - smtp读取：Content-Transfer-Encoding: base64
+DEBUG - smtp读取：
+DEBUG - smtp读取：xOO98czs0ru2qNKqzeqzyWxpbnV4us1KYXZhwb233df30rUNCg0KDQoNCg0KdG9t
+DEBUG - smtp读取：
+DEBUG - smtp读取：------=_001_NextPart480837042525_=----
+DEBUG - smtp读取：Content-Type: text/html;
+DEBUG - smtp读取：	charset="gb2312"
+DEBUG - smtp读取：Content-Transfer-Encoding: quoted-printable
+DEBUG - smtp读取：
+DEBUG - smtp读取：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+DEBUG - smtp读取：<HTML><HEAD>
+DEBUG - smtp读取：<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+DEBUG - smtp读取：<STYLE>
+DEBUG - smtp读取：BLOCKQUOTE {
+DEBUG - smtp读取：	MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2em; MARGIN-TOP: 0px
+DEBUG - smtp读取：}
+DEBUG - smtp读取：OL {
+DEBUG - smtp读取：	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+DEBUG - smtp读取：}
+DEBUG - smtp读取：UL {
+DEBUG - smtp读取：	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+DEBUG - smtp读取：}
+DEBUG - smtp读取：P {
+DEBUG - smtp读取：	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+DEBUG - smtp读取：}
+DEBUG - smtp读取：BODY {
+DEBUG - smtp读取：	FONT-SIZE: 10.5pt; FONT-FAMILY: =CE=A2=C8=ED=D1=C5=BA=DA; COLOR: #000000;=
+DEBUG - smtp读取： LINE-HEIGHT: 1.5
+DEBUG - smtp读取：}
+DEBUG - smtp读取：</STYLE>
+DEBUG - smtp读取：
+DEBUG - smtp读取：<META name=3DGENERATOR content=3D"MSHTML 10.00.9200.16442"></HEAD>
+DEBUG - smtp读取：<BODY style=3D"MARGIN: 10px">
+DEBUG - smtp读取：<DIV>=C4=E3=BD=F1=CC=EC=D2=BB=B6=A8=D2=AA=CD=EA=B3=C9linux=BA=CDJava=C1=BD=
+DEBUG - smtp读取：=B7=DD=D7=F7=D2=B5</DIV>
+DEBUG - smtp读取：<DIV>&nbsp;</DIV>
+DEBUG - smtp读取：<HR style=3D"HEIGHT: 1px; WIDTH: 210px" align=3Dleft color=3D#b5c4df SIZE=
+DEBUG - smtp读取：=3D1>
+DEBUG - smtp读取：
+DEBUG - smtp读取：<DIV><SPAN>tom</SPAN></DIV></BODY></HTML>
+DEBUG - smtp读取：
+DEBUG - smtp读取：------=_001_NextPart480837042525_=------
+DEBUG - smtp读取：
+DEBUG - smtp读取：.
+INFO - antispam:发现邮件正文存在敏感词：
+INFO - antispam:今天
+INFO - antispam:linux
+INFO - antispam:发现邮件正文存在敏感词：
+INFO - antispam:今天
+INFO - antispam:linux
+DEBUG - smtp回应：550 refuse to accept
+DEBUG - smtp读取：QUIT
+DEBUG - smtp回应：221 email server closing connection
+INFO - smtp：ID 730断开连接

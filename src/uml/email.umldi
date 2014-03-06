@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_1wECYKEcEeKIWNuS0PNrJg" activeDiagram="_1wECYaEcEeKIWNuS0PNrJg">
+  <model href="email.uml#_qb8akM37EdqwVrslYOdUDA"/>
+  <diagrams xmi:id="_1wECYaEcEeKIWNuS0PNrJg" position="0,0" size="100,100" name="email" viewport="0,0">
+    <property xmi:id="_1wPBgKEcEeKIWNuS0PNrJg" key="pageFormatName" value="A4"/>
+    <property xmi:id="_1wPBgaEcEeKIWNuS0PNrJg" key="diagramWidth" value="840"/>
+    <property xmi:id="_1wPBgqEcEeKIWNuS0PNrJg" key="diagramHeight" value="1188"/>
+    <property xmi:id="_1wPBg6EcEeKIWNuS0PNrJg" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_1wPBhKEcEeKIWNuS0PNrJg" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_1wPBhaEcEeKIWNuS0PNrJg" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_1wPBhqEcEeKIWNuS0PNrJg" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_1wPBh6EcEeKIWNuS0PNrJg" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_1wPBiKEcEeKIWNuS0PNrJg" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1wECYqEcEeKIWNuS0PNrJg" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="email.uml#_qb8akM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_2wwqYKEcEeKIWNuS0PNrJg" position="191,101" size="100,-1">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2wwqYaEcEeKIWNuS0PNrJg" presentation="default">
+        <element href="email.uml#_2wx4gKEcEeKIWNuS0PNrJg"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_2wwqYqEcEeKIWNuS0PNrJg">
+        <property xmi:id="_2wwqY6EcEeKIWNuS0PNrJg" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2wwqZKEcEeKIWNuS0PNrJg" presentation="default">
+          <element href="email.uml#_2wx4gKEcEeKIWNuS0PNrJg"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_2wwqZaEcEeKIWNuS0PNrJg">
+        <property xmi:id="_2wwqZqEcEeKIWNuS0PNrJg" key="eStructuralFeatureID" value="47"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2wwqZ6EcEeKIWNuS0PNrJg" presentation="default">
+          <element href="email.uml#_2wx4gKEcEeKIWNuS0PNrJg"/>
+        </semanticModel>
+      </contained>
+    </contained>
+  </diagrams>
+  <subdiagrams xmi:id="_4Drq0KEcEeKIWNuS0PNrJg">
+    <model href="email.uml#_2wx4gKEcEeKIWNuS0PNrJg"/>
+  </subdiagrams>
+</diagrams:Diagrams>
